@@ -1,4 +1,4 @@
-/* estilos.css */
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
   }
   
-  .contenedor-publicacion {
+  .contenedorPost {
     background-color: white;
     border: 1px solid #e6e6e6;
     border-radius: 3px;
@@ -19,8 +19,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Header */
-  .header-post {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,12 +27,12 @@ body {
     border-bottom: 1px solid #efefef;
   }
   
-  .user-info {
+  .info {
     display: flex;
     align-items: center;
   }
   
-  .avatar {
+  .perfil {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -41,26 +40,22 @@ body {
     vertical-align: middle;
   }
   
-  .username {
+  .nombreUsuario {
     font-weight: bold;
   }
   
-  .time {
+  .tiempoPost {
     color: #8e8e8e;
     font-size: 0.8em;
     margin-left: 5px;
   }
-  
-  .options {
-    /* Estilos para el contenedor del icono de opciones */
-  }
-  
-  .options .material-icons {
-    font-size: 1.2em;
+
+  .opciones .iconos {
+    font-size: 20px;
     color: #262626;
   }
   
-  /* Imagen */
+
   .contenedor-imagen {
     position: relative;
   }
