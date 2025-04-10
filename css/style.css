@@ -174,3 +174,6 @@ body {
     margin-left: 10px;
     vertical-align: middle;
   }
+  .subtituloPost {
+    font-weight: normal;
+  }
